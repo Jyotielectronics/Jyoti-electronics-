@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,50 +16,68 @@ background:#f4f4f4;
 header{
 background:#0d47a1;
 color:white;
-text-align:center;
 padding:20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
 }
 
 .hero{
-padding:40px;
-text-align:center;
-background:white;
-}
-
-.hero h1{
-color:#0d47a1;
-}
-
-.btn{
-display:inline-block;
-padding:12px 20px;
-background:#25D366;
+background:#1976d2;
 color:white;
-text-decoration:none;
-border-radius:5px;
-margin-top:15px;
+text-align:center;
+padding:15px;
+font-size:18px;
+font-weight:bold;
 }
 
-.products{
+.container{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:15px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 padding:20px;
 }
 
 .card{
 background:white;
-padding:20px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
+box-shadow:0 0 10px rgba(0,0,0,.15);
+padding:15px;
 text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:12px 20px;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#128C7E;
 }
 
 footer{
 background:#0d47a1;
 color:white;
 text-align:center;
-padding:15px;
+padding:20px;
 margin-top:20px;
 }
 </style>
@@ -69,55 +88,71 @@ margin-top:20px;
 
 <header>
 <h1>Jyoti Electronics</h1>
-<p>Director : Jyoti Yadav</p>
-<p>📞 8302417396</p>
+<p>Deals in Home Appliances & Computer Spare Parts</p>
 </header>
 
 <div class="hero">
-<h1>All India Delivery</h1>
-<p>Deals in AC, Refrigerator, Washing Machine, LED TV, LCD TV, Oven & Computer Spare Parts.</p>
-
-<a class="btn" href="https://wa.me/918302417396">Order on WhatsApp</a>
+🚚 All India Delivery Available
 </div>
 
-<div class="products">
+<div class="container">
 
 <div class="card">
-<h3>❄ AC</h3>
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600" alt="AC">
+<h3>❄ Air Conditioner</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20Air%20Conditioner">
+<button>Order on WhatsApp</button>
+</a>
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600" alt="Refrigerator">
 <h3>🧊 Refrigerator</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20Refrigerator">
+<button>Order on WhatsApp</button>
+</a>
 </div>
 
 <div class="card">
-<h3>🧺 Washing Machine</h3>
-</div>
-
-<div class="card">
-<h3>📺 LED / LCD TV</h3>
-</div>
-
-<div class="card">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600" alt="Oven">
 <h3>🔥 Oven</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20Oven">
+<button>Order on WhatsApp</button>
+</a>
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600" alt="Washing Machine">
+<h3>🧺 Washing Machine</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20Washing%20Machine">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600" alt="LED TV">
+<h3>📺 LED / LCD TV</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20LED%20TV">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Computer Spare Parts">
 <h3>💻 Computer Spare Parts</h3>
+<a href="https://wa.me/918302417396?text=I%20want%20to%20order%20Computer%20Spare%20Parts">
+<button>Order on WhatsApp</button>
+</a>
 </div>
 
 </div>
 
 <footer>
-
 <h2>Jyoti Electronics</h2>
-
-<p>📞 8302417396</p>
-
+<p>📞 Mobile: 8302417396</p>
 <p>🚚 All India Delivery</p>
-
+<p>Deals in AC, Refrigerator, Oven, Washing Machine, LED/LCD TV & Computer Spare Parts.</p>
 </footer>
 
 </body>
-
 </html>
